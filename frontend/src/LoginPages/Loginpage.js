@@ -5,7 +5,7 @@ export function Loginpage(){
 <form class="form">
     <p class="title">Login Page </p>
     <label>
-        <input class="input" type="email" placeholder="" required=""/>
+        <input class="input" type="email" placeholder="Enter Your Email" required=""/>
         <span>Email</span>
     </label> 
         

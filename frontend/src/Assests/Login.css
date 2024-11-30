@@ -13,36 +13,18 @@
   }
   
   .title {
-    font-size: 28px;
-    font-weight: 600;
-    letter-spacing: -1px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    padding-left: 30px;
-    color: #00bfff;
+    font-size: 36px; /* Increased font size */
+    font-weight: bold;
+    color: #ddb350; /* Yellow color for the title */
+    text-align: center; /* Align text in the center */
+    margin-bottom: 20px;
   }
   
   .title::before {
-    width: 18px;
-    height: 18px;
-  }
-  
-  .title::after {
-    width: 18px;
-    height: 18px;
-    animation: pulse 1s linear infinite;
-  }
-  
-  .title::before,
-  .title::after {
-    position: absolute;
-    content: "";
-    height: 16px;
-    width: 16px;
-    border-radius: 50%;
-    left: 0px;
-    background-color: #00bfff;
+    content: "●"; /* Adds the circle before the title */
+    font-size: 24px; /* Adjust the size of the circle */
+    color: #ddb350; /* Change the circle color to yellow */
+    margin-right: 8px; /* Add some spacing */
   }
   
   .message, 
