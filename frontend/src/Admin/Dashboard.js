@@ -10,8 +10,7 @@ import '../Assests/Dashboard.css';
 function Dashboard() {
     return (
         <div className="container-fluid">
-            <div className="row" style={{ height: "100vh" }}>
-                <div className="col-md-3" style={{ height: "100%" }}>
+            
                     <aside className="sidebar">
                         <h2>ROUTE ROVER</h2>
                         <ul>
@@ -48,8 +47,6 @@ function Dashboard() {
                         </ul>
                     </aside>
                 </div>
-            </div>
-        </div>
     );
 }
 
