@@ -5,7 +5,7 @@ import { Registrationpage } from "./LoginPages/Registrationpage";
 function App() {
   return (
    <>
-<Loginpage/>
+<Dashboard/>
   </>
   );
 }
