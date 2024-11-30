@@ -7,7 +7,7 @@ import AddStudentForm from "./Forms/Addstudents";
 function App() {
   return (
    <>
-<AddDriverForm/>
+<Dashboard/>
   </>
   );
 }
