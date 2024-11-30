@@ -7,7 +7,7 @@ const AddBusForm = () => {
     <div className="form-container">
       <div className="form-header">
         <div className="form-icon"><FaBus fontSize="30px" /></div>
-        <h2>Add Bus</h2>
+        <h2>Add Buses</h2>
       </div>
       <form>
         <div className="form-group">
